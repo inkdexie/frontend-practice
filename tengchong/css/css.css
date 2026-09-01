@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font: "微软雅黑" 14px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.header {
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 37px;
+    text-align: center;
+    line-height: 180px;
+    letter-spacing: 3px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.ad {
+    padding: 100px 0;
+}
+
+.ad-l {
+    width: 600px;
+}
+
+.ad-l img {
+    width: 615px;
+}
+
+.ad-r {
+    width: 550px;
+}
+
+.ad h1 {
+    color: #000;
+    line-height: 40px;
+}
+
+.ad p {
+    font-size: 14px;
+    line-height: 32px;
+    padding-top: 15px;
+    text-indent: 2em;
+}
+
+.line1 {
+    width: 100%;
+    height: auto;
+    background: #f7f8fa;
+    padding-top: 40px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.title {
+    color: #000;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.title1 {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.line1-inner {
+    width: 100%;
+    border-top: 1px dashed #d9d9d9;
+    padding: 75px 0;
+}
+
+.titlep {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.lbox {
+    width: 377px;
+    float: left;
+    margin-right: 30px;
+    background: #fff;
+}
+
+.lbox.border-btm {
+    width: 277px;
+}
+
+.lbox img {
+    width: 100%;
+    height: 236px;
+}
+
+.border a {
+    text-align: center;
+    padding: 44px 0 20px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-size: 26px;
+}
+
+.border a:hover {
+    color: red;
+    font-weight: 800;
+}
+
+.border p {
+    text-align: center;
+    font-size: 14px;
+    width: 337px;
+    margin: 0 auto 26px;
+    line-height: 26px;
+}
+
+.border {
+    border: 1px solid #d9d9d9;
+}
+
+.border-btm .lbox-img2 {
+    width: 300px;
+    height: 191px;
+}
+
+.line2 {
+    width: 100%;
+    height: auto;
+    background: #fafafa;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.titlep.p2 {
+    margin-top: 38px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.footer {
+    width: 100%;
+    line-height: 70px;
+    background: #01060c;
+    text-align: center;
+    color: white;
+}
